@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  soma_service:
+    build: .
+    container_name: soma_app
+    ports:
+      - "5000:5000"
