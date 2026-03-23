@@ -1,0 +1,802 @@
+[
+    {
+        "nome": "Gisele Pereira",
+        "idade": 20,
+        "email": "gisele.pereira@empresa.com",
+        "cargo": "Analista",
+        "salario": 5748.7,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "João Santos",
+        "idade": 51,
+        "email": "joão.santos@empresa.com",
+        "cargo": "Gerente",
+        "salario": 10038.22,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Nuno Rodrigues",
+        "idade": 45,
+        "email": "nuno.rodrigues@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 14003.92,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Fabio Souza",
+        "idade": 28,
+        "email": "fabio.souza@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 11832.31,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Lucas Silva",
+        "idade": 20,
+        "email": "lucas.silva@empresa.com",
+        "cargo": "Gerente",
+        "salario": 3348.92,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Bruno Ferreira",
+        "idade": 46,
+        "email": "bruno.ferreira@empresa.com",
+        "cargo": "Analista",
+        "salario": 3464.35,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Ana Rodrigues",
+        "idade": 57,
+        "email": "ana.rodrigues@empresa.com",
+        "cargo": "Gerente",
+        "salario": 10318.11,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Gisele Nascimento",
+        "idade": 41,
+        "email": "gisele.nascimento@empresa.com",
+        "cargo": "Analista",
+        "salario": 6689.02,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Samuel Souza",
+        "idade": 60,
+        "email": "samuel.souza@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 5172.05,
+        "setor": "RH"
+    },
+    {
+        "nome": "Raquel Nascimento",
+        "idade": 46,
+        "email": "raquel.nascimento@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 5608.87,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Fabio Pereira",
+        "idade": 41,
+        "email": "fabio.pereira@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 3449.86,
+        "setor": "RH"
+    },
+    {
+        "nome": "Ana Rodrigues",
+        "idade": 45,
+        "email": "ana.rodrigues@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 7335.37,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Raquel Santos",
+        "idade": 49,
+        "email": "raquel.santos@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 8872.57,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Fabio Souza",
+        "idade": 37,
+        "email": "fabio.souza@empresa.com",
+        "cargo": "Gerente",
+        "salario": 11294.48,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Vitor Nascimento",
+        "idade": 40,
+        "email": "vitor.nascimento@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 13482.62,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Tatiana Rodrigues",
+        "idade": 32,
+        "email": "tatiana.rodrigues@empresa.com",
+        "cargo": "Designer",
+        "salario": 10235.55,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Raquel Pereira",
+        "idade": 41,
+        "email": "raquel.pereira@empresa.com",
+        "cargo": "Designer",
+        "salario": 7154.83,
+        "setor": "RH"
+    },
+    {
+        "nome": "Ana Santos",
+        "idade": 53,
+        "email": "ana.santos@empresa.com",
+        "cargo": "Gerente",
+        "salario": 10478.96,
+        "setor": "TI"
+    },
+    {
+        "nome": "Lucas Rodrigues",
+        "idade": 44,
+        "email": "lucas.rodrigues@empresa.com",
+        "cargo": "Gerente",
+        "salario": 5963.12,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Elena Souza",
+        "idade": 32,
+        "email": "elena.souza@empresa.com",
+        "cargo": "Designer",
+        "salario": 11634.21,
+        "setor": "TI"
+    },
+    {
+        "nome": "Hugo Rodrigues",
+        "idade": 56,
+        "email": "hugo.rodrigues@empresa.com",
+        "cargo": "Designer",
+        "salario": 10381.01,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Olivia Silva",
+        "idade": 41,
+        "email": "olivia.silva@empresa.com",
+        "cargo": "Gerente",
+        "salario": 9082.68,
+        "setor": "TI"
+    },
+    {
+        "nome": "Samuel Santos",
+        "idade": 36,
+        "email": "samuel.santos@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 14994.54,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Carla Rodrigues",
+        "idade": 37,
+        "email": "carla.rodrigues@empresa.com",
+        "cargo": "Gerente",
+        "salario": 6504.18,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Gisele Souza",
+        "idade": 41,
+        "email": "gisele.souza@empresa.com",
+        "cargo": "Analista",
+        "salario": 10497.86,
+        "setor": "RH"
+    },
+    {
+        "nome": "Fabio Santos",
+        "idade": 41,
+        "email": "fabio.santos@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 13506.95,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Carla Costa",
+        "idade": 50,
+        "email": "carla.costa@empresa.com",
+        "cargo": "Analista",
+        "salario": 12704.32,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Paulo Almeida",
+        "idade": 59,
+        "email": "paulo.almeida@empresa.com",
+        "cargo": "Designer",
+        "salario": 10992.5,
+        "setor": "RH"
+    },
+    {
+        "nome": "Lucas Nascimento",
+        "idade": 52,
+        "email": "lucas.nascimento@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 4700.43,
+        "setor": "RH"
+    },
+    {
+        "nome": "Elena Rodrigues",
+        "idade": 45,
+        "email": "elena.rodrigues@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 10861.95,
+        "setor": "Vendas"
+    },
+    {
+        "nome": "Diego Almeida",
+        "idade": 48,
+        "email": "diego.almeida@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 6485.75,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Hugo Souza",
+        "idade": 54,
+        "email": "hugo.souza@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 3982.6,
+        "setor": "Vendas"
+    },
+    {
+        "nome": "Raquel Ferreira",
+        "idade": 36,
+        "email": "raquel.ferreira@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 7943.84,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Bruno Ferreira",
+        "idade": 36,
+        "email": "bruno.ferreira@empresa.com",
+        "cargo": "Gerente",
+        "salario": 9718.38,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Olivia Silva",
+        "idade": 25,
+        "email": "olivia.silva@empresa.com",
+        "cargo": "Designer",
+        "salario": 12545.16,
+        "setor": "RH"
+    },
+    {
+        "nome": "Iara Souza",
+        "idade": 44,
+        "email": "iara.souza@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 14092.75,
+        "setor": "TI"
+    },
+    {
+        "nome": "Samuel Silva",
+        "idade": 31,
+        "email": "samuel.silva@empresa.com",
+        "cargo": "Gerente",
+        "salario": 7413.17,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Carla Santos",
+        "idade": 40,
+        "email": "carla.santos@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 8846.68,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Iara Rodrigues",
+        "idade": 35,
+        "email": "iara.rodrigues@empresa.com",
+        "cargo": "Designer",
+        "salario": 14847.63,
+        "setor": "Vendas"
+    },
+    {
+        "nome": "Iara Santos",
+        "idade": 44,
+        "email": "iara.santos@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 14740.07,
+        "setor": "RH"
+    },
+    {
+        "nome": "Olivia Rodrigues",
+        "idade": 29,
+        "email": "olivia.rodrigues@empresa.com",
+        "cargo": "Designer",
+        "salario": 6641.03,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Bruno Almeida",
+        "idade": 29,
+        "email": "bruno.almeida@empresa.com",
+        "cargo": "Analista",
+        "salario": 11463.81,
+        "setor": "TI"
+    },
+    {
+        "nome": "Lucas Costa",
+        "idade": 42,
+        "email": "lucas.costa@empresa.com",
+        "cargo": "Gerente",
+        "salario": 10472.43,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Paulo Oliveira",
+        "idade": 24,
+        "email": "paulo.oliveira@empresa.com",
+        "cargo": "Analista",
+        "salario": 3503.04,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Samuel Oliveira",
+        "idade": 31,
+        "email": "samuel.oliveira@empresa.com",
+        "cargo": "Analista",
+        "salario": 9889.54,
+        "setor": "Vendas"
+    },
+    {
+        "nome": "Lucas Oliveira",
+        "idade": 24,
+        "email": "lucas.oliveira@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 7455.88,
+        "setor": "Vendas"
+    },
+    {
+        "nome": "Nuno Oliveira",
+        "idade": 25,
+        "email": "nuno.oliveira@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 8938.36,
+        "setor": "RH"
+    },
+    {
+        "nome": "Nuno Almeida",
+        "idade": 52,
+        "email": "nuno.almeida@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 12358.66,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Nuno Almeida",
+        "idade": 27,
+        "email": "nuno.almeida@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 4514.34,
+        "setor": "TI"
+    },
+    {
+        "nome": "Samuel Almeida",
+        "idade": 31,
+        "email": "samuel.almeida@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 5567.28,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Carla Souza",
+        "idade": 22,
+        "email": "carla.souza@empresa.com",
+        "cargo": "Analista",
+        "salario": 8793.87,
+        "setor": "RH"
+    },
+    {
+        "nome": "Ana Santos",
+        "idade": 59,
+        "email": "ana.santos@empresa.com",
+        "cargo": "Gerente",
+        "salario": 13451.45,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Tatiana Santos",
+        "idade": 40,
+        "email": "tatiana.santos@empresa.com",
+        "cargo": "Designer",
+        "salario": 14191.31,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Iara Costa",
+        "idade": 21,
+        "email": "iara.costa@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 9390.67,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Paulo Pereira",
+        "idade": 52,
+        "email": "paulo.pereira@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 11632.29,
+        "setor": "Vendas"
+    },
+    {
+        "nome": "Raquel Costa",
+        "idade": 56,
+        "email": "raquel.costa@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 6188.19,
+        "setor": "Vendas"
+    },
+    {
+        "nome": "Elena Costa",
+        "idade": 44,
+        "email": "elena.costa@empresa.com",
+        "cargo": "Gerente",
+        "salario": 11349.09,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Olivia Santos",
+        "idade": 34,
+        "email": "olivia.santos@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 8019.19,
+        "setor": "RH"
+    },
+    {
+        "nome": "Elena Nascimento",
+        "idade": 35,
+        "email": "elena.nascimento@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 5907.27,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Iara Rodrigues",
+        "idade": 32,
+        "email": "iara.rodrigues@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 8124.37,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Raquel Costa",
+        "idade": 46,
+        "email": "raquel.costa@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 12120.4,
+        "setor": "Vendas"
+    },
+    {
+        "nome": "Carla Rodrigues",
+        "idade": 39,
+        "email": "carla.rodrigues@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 3394.6,
+        "setor": "TI"
+    },
+    {
+        "nome": "Tatiana Nascimento",
+        "idade": 46,
+        "email": "tatiana.nascimento@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 6998.17,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Fabio Santos",
+        "idade": 53,
+        "email": "fabio.santos@empresa.com",
+        "cargo": "Analista",
+        "salario": 6922.88,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Lucas Rodrigues",
+        "idade": 44,
+        "email": "lucas.rodrigues@empresa.com",
+        "cargo": "Analista",
+        "salario": 6237.01,
+        "setor": "TI"
+    },
+    {
+        "nome": "Fabio Almeida",
+        "idade": 56,
+        "email": "fabio.almeida@empresa.com",
+        "cargo": "Designer",
+        "salario": 13337.73,
+        "setor": "TI"
+    },
+    {
+        "nome": "Fabio Silva",
+        "idade": 59,
+        "email": "fabio.silva@empresa.com",
+        "cargo": "Analista",
+        "salario": 12211.69,
+        "setor": "TI"
+    },
+    {
+        "nome": "Diego Rodrigues",
+        "idade": 54,
+        "email": "diego.rodrigues@empresa.com",
+        "cargo": "Gerente",
+        "salario": 10184.36,
+        "setor": "RH"
+    },
+    {
+        "nome": "Hugo Ferreira",
+        "idade": 27,
+        "email": "hugo.ferreira@empresa.com",
+        "cargo": "Analista",
+        "salario": 13068.57,
+        "setor": "Vendas"
+    },
+    {
+        "nome": "Ana Costa",
+        "idade": 60,
+        "email": "ana.costa@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 8590.81,
+        "setor": "RH"
+    },
+    {
+        "nome": "Hugo Oliveira",
+        "idade": 47,
+        "email": "hugo.oliveira@empresa.com",
+        "cargo": "Gerente",
+        "salario": 7837.14,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Elena Ferreira",
+        "idade": 54,
+        "email": "elena.ferreira@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 3831.54,
+        "setor": "TI"
+    },
+    {
+        "nome": "Samuel Souza",
+        "idade": 39,
+        "email": "samuel.souza@empresa.com",
+        "cargo": "Analista",
+        "salario": 13139.23,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Raquel Oliveira",
+        "idade": 40,
+        "email": "raquel.oliveira@empresa.com",
+        "cargo": "Analista",
+        "salario": 3753.26,
+        "setor": "RH"
+    },
+    {
+        "nome": "Diego Santos",
+        "idade": 53,
+        "email": "diego.santos@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 14553.64,
+        "setor": "Vendas"
+    },
+    {
+        "nome": "Vitor Pereira",
+        "idade": 57,
+        "email": "vitor.pereira@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 9921.42,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "João Oliveira",
+        "idade": 59,
+        "email": "joão.oliveira@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 13254.81,
+        "setor": "TI"
+    },
+    {
+        "nome": "Hugo Silva",
+        "idade": 53,
+        "email": "hugo.silva@empresa.com",
+        "cargo": "Analista",
+        "salario": 6395.13,
+        "setor": "TI"
+    },
+    {
+        "nome": "Vitor Silva",
+        "idade": 21,
+        "email": "vitor.silva@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 5897.13,
+        "setor": "TI"
+    },
+    {
+        "nome": "Samuel Almeida",
+        "idade": 27,
+        "email": "samuel.almeida@empresa.com",
+        "cargo": "Analista",
+        "salario": 12136.72,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Gisele Silva",
+        "idade": 25,
+        "email": "gisele.silva@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 3827.97,
+        "setor": "RH"
+    },
+    {
+        "nome": "Fabio Rodrigues",
+        "idade": 59,
+        "email": "fabio.rodrigues@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 9676.34,
+        "setor": "TI"
+    },
+    {
+        "nome": "Iara Ferreira",
+        "idade": 44,
+        "email": "iara.ferreira@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 12525.94,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Lucas Almeida",
+        "idade": 45,
+        "email": "lucas.almeida@empresa.com",
+        "cargo": "Gerente",
+        "salario": 4289.49,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Hugo Ferreira",
+        "idade": 55,
+        "email": "hugo.ferreira@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 12998.31,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Fabio Silva",
+        "idade": 55,
+        "email": "fabio.silva@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 6579.58,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Nuno Santos",
+        "idade": 34,
+        "email": "nuno.santos@empresa.com",
+        "cargo": "Gerente",
+        "salario": 14319.27,
+        "setor": "RH"
+    },
+    {
+        "nome": "Ana Rodrigues",
+        "idade": 29,
+        "email": "ana.rodrigues@empresa.com",
+        "cargo": "Analista",
+        "salario": 11159.45,
+        "setor": "TI"
+    },
+    {
+        "nome": "Marina Ferreira",
+        "idade": 57,
+        "email": "marina.ferreira@empresa.com",
+        "cargo": "Coordenador",
+        "salario": 13551.57,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Diego Nascimento",
+        "idade": 41,
+        "email": "diego.nascimento@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 14955.67,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Raquel Rodrigues",
+        "idade": 58,
+        "email": "raquel.rodrigues@empresa.com",
+        "cargo": "Designer",
+        "salario": 6198.44,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Elena Oliveira",
+        "idade": 36,
+        "email": "elena.oliveira@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 14149.1,
+        "setor": "Operações"
+    },
+    {
+        "nome": "Lucas Souza",
+        "idade": 33,
+        "email": "lucas.souza@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 10102.44,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "Lucas Almeida",
+        "idade": 21,
+        "email": "lucas.almeida@empresa.com",
+        "cargo": "Gerente",
+        "salario": 3671.55,
+        "setor": "Financeiro"
+    },
+    {
+        "nome": "Tatiana Costa",
+        "idade": 33,
+        "email": "tatiana.costa@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 14855.63,
+        "setor": "TI"
+    },
+    {
+        "nome": "Fabio Rodrigues",
+        "idade": 33,
+        "email": "fabio.rodrigues@empresa.com",
+        "cargo": "Desenvolvedor",
+        "salario": 9271.28,
+        "setor": "RH"
+    },
+    {
+        "nome": "Samuel Pereira",
+        "idade": 32,
+        "email": "samuel.pereira@empresa.com",
+        "cargo": "Gerente",
+        "salario": 4959.39,
+        "setor": "Marketing"
+    },
+    {
+        "nome": "João Santos",
+        "idade": 36,
+        "email": "joão.santos@empresa.com",
+        "cargo": "Estagiário",
+        "salario": 9493.44,
+        "setor": "RH"
+    },
+    {
+        "nome": "Fabio Costa",
+        "idade": 59,
+        "email": "fabio.costa@empresa.com",
+        "cargo": "Analista",
+        "salario": 11404.39,
+        "setor": "TI"
+    },
+    {
+        "nome": "Samuel Almeida",
+        "idade": 47,
+        "email": "samuel.almeida@empresa.com",
+        "cargo": "Designer",
+        "salario": 4055.75,
+        "setor": "Marketing"
+    }
+]
