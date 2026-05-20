@@ -15,30 +15,31 @@ Este projeto implementa uma arquitetura de **RAG Avançado (Retrieval-Augmented 
 ## 🏗️ Arquitetura do RAG Avançado Implementada
 
 Diferente do RAG tradicional que faz uma busca linear e direta, este projeto implementa três camadas inteligentes de processamento:
-[ Pergunta do Usuário ]
-│
-▼
-┌─────────────────────────────────┐
-│ 1. PRÉ-RECUPERAÇÃO (Pre-Rank)   │ ➔ Query Expansion via Maritaca AI
-└──────────┬──────────────────────┘
-│ (Vetorização do termo expandido)
-▼
-┌─────────────────────────────────┐
-│ 2. RECUPERAÇÃO VETORIAL         │ ➔ Busca no Qdrant (Recupera TOP 10 candidatos)
-└──────────┬──────────────────────┘
-│
-▼
-┌─────────────────────────────────┐
-│ 3. PÓS-RECUPERAÇÃO (Post-Rank)  │ ➔ Re-ranqueamento profundo com Cross-Encoder
-└──────────┬──────────────────────┘
-│ (Filtra apenas o TOP 3 definitivo)
-▼
-┌─────────────────────────────────┐
-│ 4. COMPRESSÃO DE CONTEXTO       │ ➔ Ingestão de contexto limpo no prompt da LLM
-└──────────┬──────────────────────┘
-│
-▼
-[ Resposta Final Otimizada ]
+| [ Pergunta do Usuário ]                                                            |
+|------------------------------------------------------------------------------------|
+| │                                                                                  |
+| ▼                                                                                  |
+| ┌─────────────────────────────────┐                                                |
+| │ 1. PRÉ-RECUPERAÇÃO (Pre-Rank)   │ ➔ Query Expansion via Maritaca AI              |
+| └──────────┬──────────────────────┘                                                |
+| │ (Vetorização do termo expandido)                                                 |
+| ▼                                                                                  |
+| ┌─────────────────────────────────┐                                                |
+| │ 2. RECUPERAÇÃO VETORIAL         │ ➔ Busca no Qdrant (Recupera TOP 10 candidatos) |
+| └──────────┬──────────────────────┘                                                |
+| │                                                                                  |
+| ▼                                                                                  |
+| ┌─────────────────────────────────┐                                                |
+| │ 3. PÓS-RECUPERAÇÃO (Post-Rank)  │ ➔ Re-ranqueamento profundo com Cross-Encoder   |
+| └──────────┬──────────────────────┘                                                |
+| │ (Filtra apenas o TOP 3 definitivo)                                               |
+| ▼                                                                                  |
+| ┌─────────────────────────────────┐                                                |
+| │ 4. COMPRESSÃO DE CONTEXTO       │ ➔ Ingestão de contexto limpo no prompt da LLM  |
+| └──────────┬──────────────────────┘                                                |
+| │                                                                                  |
+| ▼                                                                                  |
+| [ Resposta Final Otimizada ]                                                       |
 
 ### 1. Pré-recuperação (Pre-Retrieval)
 - **Técnica:** *Query Expansion* (Expansão de Consulta).
