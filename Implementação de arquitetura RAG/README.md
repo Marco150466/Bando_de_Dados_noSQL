@@ -6,8 +6,8 @@ Os 3 Passos:
 
 A Pergunta vira Vetor: 
 1.A IA recebe a dúvida e o Qdrant acha o filme mais próximo pelo significado.
-1. O Grafo expande o Contexto: O sistema entra no Neo4j e segue as setas (os 'barbantes') para pegar os diretores e gêneros vizinhos.
-2. A IA responde com precisão: O Python junta tudo e entrega esse bloco amarrado para a Maritaca gerar a resposta final sem alucinar."
+2. O Grafo expande o Contexto: O sistema entra no Neo4j e segue as setas (os 'barbantes') para pegar os diretores e gêneros vizinhos.
+3. A IA responde com precisão: O Python junta tudo e entrega esse bloco amarrado para a Maritaca gerar a resposta final sem alucinar."
 
 2. Qual problema ela resolve?
 
