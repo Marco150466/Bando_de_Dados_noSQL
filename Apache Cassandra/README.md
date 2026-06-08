@@ -41,12 +41,12 @@ Este script é responsável por criar uma interface interativa via terminal que 
 
 **1. Bloco de Tratamento Resiliente de Dependências**
 
- try:
-     import requests
- except ModuleNotFoundError:
-     subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
-     import requests
- import json
+  try:
+      import requests
+  except ModuleNotFoundError:
+      subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
+      import requests
+  import json
 
 •	O que faz: Tenta carregar a biblioteca requests. Se ela não estiver instalada no interpretador atual, captura a exceção (ModuleNotFoundError) e força a instalação em tempo de execução via terminal em segundo plano.
 
