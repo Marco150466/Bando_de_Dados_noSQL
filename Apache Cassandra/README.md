@@ -1,13 +1,13 @@
-##🔍 Detalhamento Técnico Passo a Passo
+**🔍 Detalhamento Técnico Passo a Passo**
 
-1. import sys e import subprocess
+**1. import sys e import subprocess**
 
 •	O que faz: Importa dois módulos nativos do ecossistema Python (não requerem instalação prévia).
 
 •	Por que é usado: * O módulo sys fornece acesso a variáveis e funções que interagem diretamente com o interpretador Python em execução.
 o	O módulo subprocess permite que o script crie novos processos no sistema operacional, executando comandos de terminal diretamente de dentro do código de forma protegida.
 
-2. subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
+**2. subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])**
 
 •	O que faz: Executa uma chamada de terminal forçada para o gerenciador de pacotes (pip) instalar a biblioteca requests.
 
@@ -19,13 +19,13 @@ o	"-m", "pip": Executa o pip como um módulo interno desse interpretador especí
 
 o	"check_call": Garante que o script Python seja interrompido caso a instalação falhe (por falta de internet, por exemplo), impedindo que o programa tente rodar o resto do código sem a biblioteca instalada.
 
-3. import requests
+**3. import requests**
 
 •	O que faz: Importa a biblioteca externa responsável pelo protocolo HTTP.
 
 •	Por que é usado: Como o DataStax Astra DB expõe o banco Apache Cassandra através de uma camada de API baseada em nuvem, a comunicação não é feita por conexões binárias tradicionais. O requests é o motor que nos permite disparar métodos HTTP como GET (buscar dados) e POST (inserir dados) em direção ao cluster NoSQL.
 
-4. import json
+**4. import json**
 
 •	O que faz: Importa o manipulador nativo de objetos JSON do Python.
 
@@ -35,11 +35,11 @@ o	"check_call": Garante que o script Python seja interrompido caso a instalaçã
 
 •	A inclusão deste bloco implementa o conceito de Idempotência no Setup da Aplicação. Não importa se a biblioteca requests já existe ou não na máquina do usuário: o script se autoajusta no interpretador correto antes de iniciar a camada de persistência de dados.
 
-##💻 Documentação do Bloco: Script de Consulta Dinâmica e Interativa
+**💻 Documentação do Bloco: Script de Consulta Dinâmica e Interativa**
 
 Este script é responsável por criar uma interface interativa via terminal que permite ao operador buscar, de forma cirúrgica e performática, as leituras de qualquer sensor cadastrado no Apache Cassandra em uma data específica.
 
-1. Bloco de Tratamento Resiliente de Dependências
+**1. Bloco de Tratamento Resiliente de Dependências**
 
 try:
     import requests
@@ -52,7 +52,7 @@ import json
 
 •	Importância: Garante que o script seja executado com sucesso em qualquer máquina, sem exigir que o usuário precise instalar dependências manualmente antes de testar o projeto.
 
-2. Bloco de Configurações de Conexão e Definição de Metadados (API REST v2)
+**2. Bloco de Configurações de Conexão e Definição de Metadados (API REST v2)**
 
 ASTRA_TOKEN = "AstraCS:..." 
 BASE_URL = "https://68a5bf7f-bbf0-407b-ab3e-0a8aa6c11a2a-us-east-2.apps.astra.datastax.com"
@@ -72,7 +72,7 @@ headers = {
 
 •	headers: O dicionário de cabeçalhos injeta o Token de autenticação no campo proprietário X-Cassandra-Token e especifica que a aplicação trafegará dados puramente no formato JSON.
 
-3. Bloco de Captura de Dados Dinâmicos (Interface de Usuário)
+**3. Bloco de Captura de Dados Dinâmicos (Interface de Usuário)**
 
 print("=" * 50)
 print("🔍 SISTEMA DE CONSULTA DE TELEMETRIA NOSQL")
@@ -82,7 +82,7 @@ data_escolhida = input("Digite a Data da Leitura (padrão AAAA-MM-DD, ex: 2026-0
 
 •	O que faz: Imprime um menu visual limpo e suspende a execução do programa para capturar os inputs do usuário via teclado. O método .strip() é aplicado ao final para remover automaticamente quaisquer espaços em branco que o usuário digite acidentalmente no início ou no fim dos textos.
 
-4. Bloco de Construção da Query NoSQL (Parâmetros Dinâmicos)
+**4. Bloco de Construção da Query NoSQL (Parâmetros Dinâmicos)**
 
 query_params = {
     "where": json.dumps({
@@ -102,7 +102,7 @@ o	Chave Primária Obrigatória: Note que o script exige o sensor_id e a data_lei
 
 o	page-size: 10: Limita o retorno da API a no máximo 10 registros por página, protegendo a memória RAM da aplicação.
 
-5. Bloco de Consumo HTTP e Tratamento de Respostas
+**5. Bloco de Consumo HTTP e Tratamento de Respostas**
 
 try:
     response = requests.get(endpoint_url, headers=headers, params=query_params)
@@ -137,11 +137,11 @@ except Exception as e:
 
 •	Tratamento de Erros de Infraestrutura: O script mapeia os erros de escopo. Se retornar 401, o desenvolvedor sabe imediatamente que o problema está no token. Qualquer outro erro (como o 400 se o Keyspace sumir) ou falhas de falta de internet (except Exception) são capturados e impressos de forma amigável, impedindo o travamento abrupto do software.
 
-##💻 Documentação do Bloco: Script de Inserção Dinâmica e Lançamento de Dados
+**💻 Documentação do Bloco: Script de Inserção Dinâmica e Lançamento de Dados**
 
 Este script implementa uma interface interativa via terminal responsável por simular o comportamento de um dispositivo IoT ou de um operador de data center, coletando métricas em tempo real e realizando a persistência imediata (ingestão) no ecossistema distribuído do Apache Cassandra.
 
-1. Bloco de Importação e Gerenciamento de Data/Hora
+**1. Bloco de Importação e Gerenciamento de Data/Hora**
 
 from datetime import datetime
 
@@ -149,7 +149,7 @@ from datetime import datetime
 
 •	Por que é usado: O Apache Cassandra exige uma formatação cronológica estrita para colunas do tipo timestamp e date. Essa biblioteca é o componente que gera as strings temporais padronizadas automaticamente a partir do relógio interno do sistema operacional.
 
-2. Bloco de Entrada e Validação Dinâmica de Tipos (Sanitização)
+**2. Bloco de Entrada e Validação Dinâmica de Tipos (Sanitização)**
 
 sensor_id = input("Introduza o ID do Sensor (ex: sensor-004): ").strip()
 try:
@@ -170,7 +170,7 @@ o	try / except ValueError: Captura falhas de digitação (ex: digitar uma vírgu
 
 o	.upper(): Padroniza a string de status em letras maiúsculas, mantendo a consistência conceitual dos metadados gravados no Cassandra.
 
-3. Bloco de Geração Automática do Padrão Temporal ISO 8601
+**3. Bloco de Geração Automática do Padrão Temporal ISO 8601**
 
 data_atual = datetime.utcnow().strftime("%Y-%m-%d")
 horario_atual = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -181,7 +181,7 @@ horario_atual = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
 
 o	O formato "%Y-%m-%dT%H:%M:%SZ" injeta a letra T (separador de tempo) e a letra Z (marcador de fuso UTC), atendendo perfeitamente ao formato ISO 8601 exigido internamente pelo gateway Stargate do Astra DB para deserializar colunas do tipo timestamp.
 
-4. Bloco de Estruturação do Payload JSON
+**4. Bloco de Estruturação do Payload JSON**
 
 novo_registro = {
     "sensor_id": sensor_id,
@@ -194,7 +194,7 @@ novo_registro = {
 
 •	O que faz: Consolida todas as variáveis capturadas e validadas em uma estrutura de dicionário Python de documento único, mapeando chaves cujos nomes correspondem exatamente aos nomes das colunas mapeadas na tabela do Cassandra.
 
-5. Bloco de Persistência via Protocolo HTTP POST e Confirmação de Escrita
+**5. Bloco de Persistência via Protocolo HTTP POST e Confirmação de Escrita**
 
 try:
     response = requests.post(endpoint_url, headers=headers, json=novo_registro)
